@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Stop stale Node prompt",
+			"type": "shell",
+			"command": "taskkill",
+			"args": [
+				"/IM",
+				"node.exe",
+				"/F"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
